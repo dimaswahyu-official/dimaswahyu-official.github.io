@@ -6,7 +6,8 @@
         "dev": "astro dev",
         "build": "astro build",
         "preview": "astro preview",
-        "astro": "astro"
+        "astro": "astro",
+        "deploy": "astro build && touch dist/.nojekyll && gh-pages -d dist"
     },
     "dependencies": {
         "astro": "^5.4.2",
@@ -18,6 +19,7 @@
         "@astrojs/sitemap": "^3.2.1",
         "@astrojs/tailwind": "^5.1.4",
         "astro-compress": "^2.3.6",
+        "gh-pages": "^6.3.0",
         "sass": "^1.85.1"
     }
 }

@@ -5,6 +5,8 @@ import compress from 'astro-compress';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
+    site: 'https://dimaswahyu-official.github.io',
+    base: '/',
     output: 'static',
     trailingSlash: 'always',
 
