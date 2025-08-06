@@ -7,6 +7,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
     site: 'https://dimaswahyu-official.github.io',
     base: '/',
+    outDir: 'docs', 
     output: 'static',
     trailingSlash: 'always',
 
